@@ -38,3 +38,15 @@ for i in range (0, len(Buah)):
     print(Buah[i])
 print(f"\nJumlah Jenis Buah Yang Dibeli: {len(Buah)} Jenis")
 
+print(f"\n{Buah}")
+
+print("\nList Comprehention: ganjil")
+Buah_Baru = Buah [0::2] #start stop skip
+for i in range (0, len(Buah_Baru)):
+    print(Buah_Baru[i])
+
+print("\nList Comprehention: genap")
+Buah_Baru = Buah [1::2] #start stop skip
+for i in range (0, len(Buah_Baru)):
+    print(Buah_Baru[i])
+
