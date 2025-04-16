@@ -13,3 +13,4 @@ while buku_telah_dibaca < jumlah_buku:
     print(f"Buku ke {buku_telah_dibaca} telah dibaca")
 
 print("Seluruh buku telah dibaca")
+
